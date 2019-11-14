@@ -3,6 +3,7 @@ package lesson1.task1
 
 import kotlin.math.*
 
+
 /**
  * Пример
  *
@@ -48,8 +49,8 @@ fun quadraticRootProduct(a: Double, b: Double, c: Double): Double {
  * Пример главной функции
  */
 fun main(args: Array<String>) {
-    val x1x2 = quadraticRootProduct(1.0, 13.0, 42.0)
-    println("Root product: $x1x2")
+    val ge = numberRevert(249)
+    println("Root product: $ge")
 }
 
 /**
